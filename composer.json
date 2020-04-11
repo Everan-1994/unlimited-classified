@@ -1,0 +1,28 @@
+{
+    "name": "everan/unlimitedclassified",
+    "description": "unlimited classified",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everan",
+            "email": "everan@aliyun.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lejin\\UnlimitedClassified\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lejin\\UnlimitedClassified\\UnlimitedClassifiedServiceProvider"
+            ],
+            "aliases": {
+                "UnlimitedClassified": "Lejin\\UnlimitedClassified\\Facades\\UnlimitedClassified"
+            }
+        }
+    }
+}
